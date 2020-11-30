@@ -1,8 +1,8 @@
-#!/usr/local/bin/bash
+#!/bin/bash
 
 if [ $# -ne 1 ]
 then
-echo "This script require a protein file"
+echo "This script requires a protein file"
 exit 1
 
 elif [ ! -f $1 ]
